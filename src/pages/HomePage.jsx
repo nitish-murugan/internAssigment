@@ -93,7 +93,7 @@ const HomePage = () => {
               >
                 <div className="category-image">
                   <img 
-                    src={`https://images.unsplash.com/photo-${1600271886742 + index}?w=400&h=300&fit=crop`}
+                    src={`https://images.unsplash.com/photo-1582979512210-99b6a53386f9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687`}
                     alt={category}
                   />
                 </div>
