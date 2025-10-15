@@ -1,0 +1,152 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #fff5f2 0%, #ffe8e0 100%);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 450px;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.auth-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.auth-header p {
+  color: #666;
+  margin: 0;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -0.5rem 0;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.checkbox-label input {
+  cursor: pointer;
+}
+
+.forgot-link {
+  color: #ff6b35;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.auth-divider {
+  position: relative;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.auth-divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.auth-divider span {
+  position: relative;
+  background: white;
+  padding: 0 1rem;
+  color: #999;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  border-color: #ff6b35;
+  background: #fff5f2;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.auth-switch p {
+  color: #666;
+  margin: 0;
+}
+
+.auth-switch button {
+  background: transparent;
+  border: none;
+  color: #ff6b35;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.auth-switch button:hover {
+  color: #ff8c42;
+}
+
+@media (max-width: 768px) {
+  .auth-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .form-options {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "555-0123",
+      "addresses": [
+        {
+          "id": "1",
+          "label": "Home",
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zipCode": "10001",
+          "isDefault": true
+        }
+      ],
+      "loyaltyPoints": 150
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-001",
+      "userId": "1",
+      "items": [
+        {
+          "id": "1-500ml-1",
+          "product": {
+            "id": "1",
+            "name": "Classic Fresh Orange",
+            "price": 4.99,
+            "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=500&h=500&fit=crop"
+          },
+          "size": "500ml",
+          "quantity": 2,
+          "addons": []
+        }
+      ],
+      "subtotal": 17.96,
+      "deliveryFee": 0,
+      "tax": 1.44,
+      "total": 19.40,
+      "status": "delivered",
+      "deliveryAddress": {
+        "id": "1",
+        "label": "Home",
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001"
+      },
+      "paymentMethod": "credit-card",
+      "createdAt": "2025-10-10T10:00:00Z",
+      "estimatedDelivery": "2025-10-10T10:30:00Z"
+    }
+  ]
+}

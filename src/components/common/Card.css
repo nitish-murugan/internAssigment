@@ -1,0 +1,26 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.card-small {
+  padding: 1rem;
+}
+
+.card-medium {
+  padding: 1.5rem;
+}
+
+.card-large {
+  padding: 2rem;
+}
+
+.card-hoverable {
+  cursor: pointer;
+}
+
+.card-hoverable:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
